@@ -1,0 +1,86 @@
+*{
+    margin:0;
+    padding:0;
+}
+button{
+    all:unset
+}
+body{
+    background-color: #333;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height: 100vh;
+}
+.par{
+    position:relative;
+    overflow: hidden;
+}
+.container{
+    position: relative;
+    background-color: #e9e9e9;
+    border:5px solid #e9e9e9;
+    width: 300px;
+    height: 300px;
+    display:grid;
+    grid-template-columns: repeat(3 , auto);
+    grid-template-rows: repeat(3 , auto);
+    column-gap: 5px;
+    row-gap: 5px;
+border-radius: 5px; 
+}
+
+.container button{
+    background-color: #333;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    display: grid;
+    place-items: center;
+}
+.container button .x{
+    position: absolute;
+    color: greenyellow;
+    font-size: 102px;
+    font-family: cursive;
+    top:-35px;
+}
+.container button .o{
+    position: absolute;
+    color: red;
+    font-size: 102px;
+    font-family: cursive;
+    top:-35px;
+}
+
+.dn{
+    display:none;
+}
+
+
+
+
+.winner{
+    position: absolute;
+    height: 5px;
+    width: 0;
+    background-color: red;
+    z-index: 10;
+    transition: all 0.2s;
+    
+}
+.winner1{
+    top: 51px;
+    left: 26px;
+}
+.w123{
+    width: 85%;
+}
+.winner2{
+    top: 153px;
+    left: 26px;
+    
+}
+.w456{
+    width: 85%;
+}
