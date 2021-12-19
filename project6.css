@@ -41,16 +41,19 @@ border-radius: 5px;
 .container button .x{
     position: absolute;
     color: greenyellow;
-    font-size: 102px;
-    font-family: cursive;
-    top:-35px;
+    font-size: 115px;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+    top: -14px;
+    transform: rotate(46deg);
 }
 .container button .o{
     position: absolute;
     color: red;
-    font-size: 102px;
-    font-family: cursive;
-    top:-35px;
+    font-size: 85px;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+    top: 5px;
 }
 
 .dn{

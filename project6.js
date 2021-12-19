@@ -20,10 +20,10 @@ caro.forEach((item) => {
 
     const xo = document.createElement("span");
     if (item.parentElement.classList.contains("ix")) {
-      xo.innerText = "x";
+      xo.innerText = "+";
       xo.classList.add("x");
     } else if (item.parentElement.classList.contains("io")) {
-      xo.innerText = "o";
+      xo.innerText = "0";
       xo.classList.add("o");
     }
 
