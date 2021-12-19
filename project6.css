@@ -1,6 +1,7 @@
 *{
     margin:0;
     padding:0;
+    user-select: none;
 }
 button{
     all:unset
@@ -37,6 +38,7 @@ border-radius: 5px;
     position: relative;
     display: grid;
     place-items: center;
+    overflow: hidden;
 }
 .container button .x{
     position: absolute;
