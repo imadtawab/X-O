@@ -126,8 +126,8 @@ caro.forEach((item) => {
         caro[8].classList.contains("x") ||
         
         caro[2].classList.contains("x") &&
-        caro[5].classList.contains("x") &&
-        caro[8].classList.contains("x") 
+        caro[4].classList.contains("x") &&
+        caro[6].classList.contains("x") 
     ) {
       p1++
       player1.innerText = p1
@@ -163,8 +163,8 @@ caro.forEach((item) => {
         caro[8].classList.contains("o") ||
         
         caro[2].classList.contains("o") &&
-        caro[5].classList.contains("o") &&
-        caro[8].classList.contains("o") 
+        caro[4].classList.contains("o") &&
+        caro[6].classList.contains("o") 
     ) {
       p2++
       player2.innerText = p2
