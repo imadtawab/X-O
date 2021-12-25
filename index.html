@@ -9,19 +9,25 @@
     <script defer src="project6.js"></script>
 </head>
 <body>
+    <div class="play">
+        <button class="robot">player1 vs computer</button>
+        <button class="player12">player1 vs palyer2</button>
+    </div>
     <div class="shadow dn">
        <h1 class="winner-x dn">Player 1 <span>winner</span></h1>
        <h1 class="winner-o dn">Player 2 <span>winner</span></h1>
-       <button>Replay</button>
+       <h1 class="winner-robot dn">Player 1 <span>loser</span></h1>
+       <button class="replay">Replay</button>
+       <button class="menu">menu</button>
     </div>
     <div class="header">
         <h1><span>X</span> - <span>O</span></h1>
         <div class="player">
             <div class="player1 active">
-                Player 1 : <span>0</span>
+                <span>Player 1 </span> : <span>0</span>
             </div>
             <div class="player2">
-                Player 2 : <span>0</span>
+              <span class="ply2">Player 2 </span> : <span>0</span>
             </div>
         </div>
     </div>
@@ -30,15 +36,15 @@
             <div class="winner"></div>
     
     <div class="container ix">
-        <button class="caro"></button>
-        <button class="caro"></button>
-        <button class="caro"></button>
-        <button class="caro"></button>
-        <button class="caro"></button>
-        <button class="caro"></button>
-        <button class="caro"></button>
-        <button class="caro"></button>
-        <button class="caro"></button>
+        <button data-i="0" class="caro"></button>
+        <button data-i="1" class="caro"></button>
+        <button data-i="2" class="caro"></button>
+        <button data-i="3" class="caro"></button>
+        <button data-i="4" class="caro"></button>
+        <button data-i="5" class="caro"></button>
+        <button data-i="6" class="caro"></button>
+        <button data-i="7" class="caro"></button>
+        <button data-i="8" class="caro"></button>
     </div>
 </div>
 </div>
